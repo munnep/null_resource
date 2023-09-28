@@ -12,4 +12,8 @@ provider "null" {
 }
 
 
-resource "null_resource" "test" {}
+resource "null_resource" "test" {
+  provisioner "local-exec" {
+    command = "curl https://google.com"
+  }
+}
