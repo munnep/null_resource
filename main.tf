@@ -17,3 +17,9 @@ resource "null_resource" "test" {
     command = "curl https://google.com"
   }
 }
+
+resource "null_resource" "test2" {
+  provisioner "local-exec" {
+    command = "curl https://imdb.com"
+  }
+}
