@@ -6,6 +6,8 @@ EOT
   ]
 }
 
+resource "null_resource" "test" {}
+
 output "delay_result" {
   value = data.external.slow_delay.result
 }
