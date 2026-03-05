@@ -6,3 +6,6 @@ resource "null_resource" "patrick2" {
 
 resource "null_resource" "patrick3" {
 }
+
+resource "null_resource" "patrick6" {
+}
