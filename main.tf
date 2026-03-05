@@ -11,3 +11,4 @@ resource "null_resource" "test7" {}
 output "delay_result" {
   value = data.external.slow_delay.result
 }
+   
