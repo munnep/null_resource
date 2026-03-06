@@ -7,7 +7,7 @@ EOT
 }
 
 resource "null_resource" "test7" {
-count = 2
+count = 3
 }
 
 
