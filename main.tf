@@ -6,7 +6,9 @@ EOT
   ]
 }
 
-resource "null_resource" "test7" {}
+resource "null_resource" "test7" {
+count = 2
+}
 
 
 resource "null_resource" "test8" {}
