@@ -11,9 +11,5 @@ resource "null_resource" "paul2" {
 resource "null_resource" "paul4" {
   
 }
-resource "null_resource" "paul5" {
-  
-}
-resource "null_resource" "paul7" {
-  
-}
+
+
